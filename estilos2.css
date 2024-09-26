@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #444242;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Sección principal */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+/* Listado de logros */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+fieldset
+   {
+    margin-bottom: 10px;
+   }  
+
+legend
+   {
+    border: solid 1px #b5d5f8;
+    padding: 5px;
+    font-weight: bold;
+    background: #9ef8ad;
+    border-radius: 15px;
+   }
+
+footer
+   {
+    text-align: center;
+    margin-top: 40px;
+    color: #000;
+   }
